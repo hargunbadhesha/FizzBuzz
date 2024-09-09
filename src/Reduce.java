@@ -14,4 +14,9 @@ public class Reduce {
         }
         return steps;
     }
+
+    public static void main(String[] args) {
+        int steps = main(100);
+        System.out.println(steps);
+    }
 }

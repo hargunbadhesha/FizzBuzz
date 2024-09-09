@@ -11,4 +11,10 @@ public class Multiples {
         }
         return answer;
     }
+
+    public static void main(String[] args) {
+
+        int answer = main(1000, 3, 5);
+        System.out.println(answer);
+    }
 }
